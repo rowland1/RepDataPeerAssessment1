@@ -2,13 +2,14 @@
 title: "PA1_template"
 author: "Dana E Rowland"
 date: "May 30, 2018"
-output: html_document 
-  
-    
+output: 
+  html_document: 
+    fig_caption: yes
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(warning = FALSE, message = FALSE, echo = TRUE, fig.align = "center", fig.width = 7.25, fig.height = 6, dev: jpeg)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, echo = TRUE, fig.align = "center", fig.width = 7.25, fig.height = 6)
 ```
 
 ## Start of project
