@@ -2,11 +2,13 @@
 title: "PA1_template"
 author: "Dana E Rowland"
 date: "May 30, 2018"
-output: html_document
+output: html_document 
+  
+    
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, echo = TRUE, fig.align = "center", fig.width = 7.25, fig.height = 6)
 ```
 
 ## Start of project
@@ -69,6 +71,7 @@ hist(act_data.day$steps,
      main = "Historgram of Total Steps Taken Each Day",
      xlab = "Total Steps Taken Each Day")
 ```
+
 # Mean and median number of steps taken each day
 
 Mean
